@@ -1,9 +1,10 @@
-const WeatherIcon = (props) => {
-    return (
-        <>
-        <img src={props.img} alt={props.imgAlt} />
-        </>
-    )
+
+const WeatherIcon = ({ img, alt }) => {
+  return (
+  <>
+  <img src={img} alt={alt} />;
+  </>
+)
 }
 
 export default WeatherIcon;
