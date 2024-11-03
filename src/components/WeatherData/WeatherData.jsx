@@ -1,14 +1,15 @@
 
 
-const WeatherData = () => {
+const WeatherData = (props) => {
+    
     return (
         <>
-        <li> 
-        <h3>Add the day, conditions and time here</h3>
-        </li>
-        </>
-    );
-};
+<h2>{props.day}</h2>
+<p><span>conditions:</span>{props.conditions}</p>
+<p><span>time:</span>{props.time}</p>
+</>
+)
+}
 
 export default WeatherData;
 

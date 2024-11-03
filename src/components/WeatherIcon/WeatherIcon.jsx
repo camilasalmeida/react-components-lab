@@ -1,10 +1,7 @@
-const WeatherIcon = () => {
+const WeatherIcon = (props) => {
     return (
         <>
-        <li> 
-        <h3>Add the icon here</h3>
-        </li>
-        
+        <img src={props.img} alt={props.imgAlt} />
         </>
     )
 }
